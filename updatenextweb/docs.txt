@@ -1,0 +1,1971 @@
+﻿*************************** HTML *********************************
+
+<head>
+Это начало раздела заголовка документа, который содержит метаданные о веб-странице, такие как ссылки на стили, шрифты и мета-теги.
+    
+    <meta charset="utf-8">
+    Этот тег устанавливает кодировку символов документа на UTF-8, что обеспечивает поддержку всех символов в различных языках и символов юникода.
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    Этот тег указывает браузеру Internet Explorer использовать последнюю доступную версию движка рендеринга.
+    
+    <title>Title</title>
+    Этот тег устанавливает заголовок страницы, который отображается в верхней части окна браузера.
+    
+    <meta name="description" content="">
+    Этот тег устанавливает метатег описания страницы, который используется в поисковых результатах.
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    Этот тег устанавливает размер страницы и масштаб, который должен использоваться для начальной загрузки страницы на мобильных устройствах.
+    
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    Этот тег ссылается на внешний файл стилей, который содержит шрифты Google Droid Serif и Source Sans Pro.
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    Этот тег ссылается на внешний файл стилей, который содержит шрифт Google Josefin Sans.   
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    Этот тег ссылается на внешний файл стилей, который содержит библиотеку Bootstrap 4.    
+
+
+    <link rel="stylesheet" href="css/themefisher-fonts.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    Эти теги ссылается на внешние файлы стилей, которые содержат пользовательские стили для различных элементов на веб-странице. Каждый файл содержит стили для разных компонентов:
+        "themefisher-fonts.css" содержит кастомные шрифты, используемые на странице.
+        "owl.carousel.css" содержит стили для галереи изображений, которая используется на странице.
+        "magnific-popup.css" содержит стили для модального окна, которое используется на странице.
+        "style.css" содержит основные пользовательские стили для страницы, такие как цвет фона, размер и цвет шрифта, маргины и отступы, и т.д.
+        "responsive.css" содержит стили для адаптивной верстки, которые обеспечивают корректное отображение страницы на разных устройствах с разными размерами экранов.
+
+</head>
+Это закрывающий тег для раздела заголовка документа.
+
+
+
+<div id="preloader-wrapper">
+    <div class="pre-loader"></div>
+</div>
+Этот блок отвечает за прелоадер на странице - анимированный элемент, который отображается на странице во время загрузки содержимого.
+
+<!-- 
+Header start
+==================== -->
+<div class="container">
+    <nav class="navbar navigation " id="top-nav">
+        <a class="navbar-brand logo" href="#">
+            <h1>Vex</h1>
+        </a>
+
+        <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+            <i class="tf-ion-android-menu"></i>
+        </button>
+        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+        <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+            <li class=" active">
+               <a href="#">HOME</a>
+            </li>
+            <li class="">
+                <a href="#about">ABOUT</a>
+            </li>
+            <li class="">
+                <a href="#service">SERVICES</a>
+            </li>
+            <li class="">
+                <a href="#contact">CONTACT</a>
+            </li>
+        </ul>
+       </div>
+    </nav>
+</div>
+Этот блок содержит навигационное меню в шапке страницы, которое скрыто на мобильных устройствах и открывается при нажатии на кнопку. Он содержит:
+
+Контейнер ".container", который ограничивает ширину содержимого и выравнивает его по центру.
+Навигационное меню ".navbar" с классом "navigation" и идентификатором "top-nav".
+Логотип ".navbar-brand", содержащий заголовок страницы "Vex".
+Кнопка для открытия/закрытия меню, ".navbar-toggler", которая видна только на мобильных устройствах.
+Меню ".nav" с классом "menu", содержащее ссылки на различные разделы страницы. Каждый элемент меню ".nav-item" имеет класс "active" для обозначения текущей страницы.
+Также следует отметить, что "data-toggle" и "data-target" используются для связывания кнопки ".navbar-toggler" с меню, которое нужно открывать/закрывать.
+
+
+<section class="hero-area">
+	<div class="container">
+	    div class="row">
+            <div class="col-md-6 text-center">
+                <img src="images/watch.png" alt="">
+            </div>
+	        <div class="col-md-6">
+	            <div class="block">
+	                <h1 class="">Belive in Technology, Make the change</h1>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!</p>
+	                <a class="btn btn-main" href="#about" role="button">Buy Now With $199</a>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</section>
+Этот код создает секцию с классом "hero-area", которая представляет собой заголовок или главный блок на странице. Внутри контейнера размещены две колонки, одна из которых содержит изображение часов (watch.png), а вторая - блок с заголовком, текстом и кнопкой.
+Заголовок находится внутри тега "h1", текст находится внутри тега "p", а кнопка оформлена как ссылка с классом "btn btn-main" и атрибутом "href" указывающим на якорь с идентификатором "about".
+Также в коде используется система сетки Bootstrap, в которой первая колонка занимает 6 из 12 доступных колонок (col-md-6), а вторая - оставшиеся 6 колонок.
+Этот блок может использоваться как заголовок страницы или главный блок на главной странице, который будет привлекать внимание посетителей и призывать их выполнить какое-либо действие, например, купить продукт.
+
+
+        <!-- 
+        Feature start
+        ==================== -->
+        <section class="feature section">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Our Core Features</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="tf-ion-ios-alarm-outline"></i>
+                            <h4>Smooth Touch</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="tf-ion-ios-bell-outline"></i>
+                            <h4>Elegant Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="tf-ion-ios-cart-outline"></i>
+                            <h4>Easy Pricing</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/watch-2.png" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="tf-ion-ios-alarm-outline"></i>
+                            <h4>Smooth Touch</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="tf-ion-ios-bell-outline"></i>
+                            <h4>Elegant Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="tf-ion-ios-cart-outline"></i>
+                            <h4>Easy Pricing</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .container close -->
+        </section><!-- #service close -->
+        Это раздел с названием "Feature", который содержит список ядерных характеристик продукта или услуги. Раздел содержит блоки с описанием каждой из характеристик, которые состоят из иконки, заголовка и короткого текста описания.
+        Раздел начинается с контейнера, в котором расположен заголовок раздела. Затем следует ряд, в котором содержатся 3 колонки. Первая и третья колонки содержат по 3 блока с описанием каждой характеристики. Вторая колонка содержит изображение продукта или услуги.
+        Каждый блок характеристики начинается с иконки, соответствующей этой характеристике. Затем следует заголовок и короткий текст описания. Цвет иконок соответствует цветовой схеме сайта.
+        Этот раздел призван подчеркнуть ключевые особенности продукта или услуги и заинтересовать посетителей сайта.
+        Этот код описывает раздел "Our Core Features" (наши основные функции) на веб-странице. Раздел содержит три колонки с иконками и описаниями функций.
+
+        Каждая колонка содержит три элемента:
+
+        feature-box - блок с описанием одной функции, который содержит иконку, заголовок и краткое описание функции.
+        tf-ion-ios-* - иконки, которые используются для каждой функции.
+        col-md-* - классы сетки Bootstrap, которые определяют размеры и расположение колонок на странице.
+        Средняя колонка содержит изображение часов, которые продвигаются в этом разделе.
+        В конце раздела заключается в section теге, который используется для группировки элементов на странице, а div тег используется для создания контейнеров, которые могут содержать другие элементы и помогают при выравнивании и размещении на странице.
+
+        <section class="promo-details section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img src="images/watch.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content mt-100">
+                            <h2 class="subheading">Designed by professional , the benefit for creative gigs</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        Этот код представляет раздел промо-деталей на веб-странице.
+        Внутри контейнера с классом "promo-details section" располагаются два столбца в ряду, каждый из которых занимает 6 колонок на устройствах среднего размера (col-md-6).
+        В первом столбце находится изображение с часами, которое загружается из файла "watch.png".
+        Во втором столбце расположено содержимое, которое начинается с заголовка второго уровня (h2) с классом "subheading". После заголовка следует два абзаца с текстом, который может использоваться для привлечения внимания пользователей к продукту или услуге.
+        В классе "content mt-100" используется отступ сверху (mt-100) для установки расстояния между верхней границей контейнера и содержимым.
+        Код использует Bootstrap, фреймворк для разработки адаптивных веб-страниц, в котором классы "col-md-6" и "mt-100" являются частью системы сеток и отступов.
+
+
+
+        <section class="feature-list section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>Why Choose Apple Watch</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img class="" src="images/showcase-4.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content mt-100">
+                            <h4 class="subheading">Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!</p>
+                            <a href="" class="btn btn-main btn-main-sm">Check Features</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <div class="content mt-100">
+                            <h4 class="subheading">Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!</p>
+                            <a href="" class="btn btn-main btn-main-sm">Check Features</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="img-responsive" src="images/showcase-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        Секция имеет класс "feature-list section" и содержит контейнер с двумя строками контента.
+        Первая строка содержит заголовок с текстом "Почему выбрать Apple Watch" и имеет одну колонку.
+        Вторая строка имеет две колонки с изображениями и текстом. Первая колонка содержит изображение по центру с классом "img-responsive", а вторая колонка имеет заголовок, абзац текста и кнопку с текстом "Проверить функции".
+        Третья строка аналогична второй строке, но колонки поменяны местами. Первая колонка содержит заголовок, абзац текста и кнопку, а вторая колонка содержит изображение по центру с классом "img-responsive".
+
+
+
+        section class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>Checkout some amazing Shorts</h2>
+                        </div>
+
+                        <div class="gallery-slider">
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-3.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-4.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-5.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-6.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-7.png" alt="">
+                            </div>
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-3.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-4.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-5.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-6.png" alt="">
+                            </div>
+                            
+                            <div class="block">
+                                <div class="gallery-overlay">
+                                    <a  href="images/showcase-2.png" class="image-popup gallery-popup">
+                                        <i class="tf-ion-ios-search"></i>
+                                    </a>
+                                </div>
+                                
+                                <img class="img-fluid" src="images/showcase-7.png" alt="">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        Секция, помеченная классом "gallery" (галерея).
+        Контейнер (div) с классом "container", в котором располагаются элементы галереи.
+        Ряд (row) внутри контейнера.
+        Колонка (div) внутри ряда, имеющая класс "col-md-12" (используется фреймворк Bootstrap для создания адаптивной верстки).
+        Заголовок с классом "heading", в котором находится текст "Checkout some amazing Shorts".
+        Слайдер (div) с классом "gallery-slider", который содержит все изображения галереи.
+        Блоки (div) с классом "block", каждый из которых представляет отдельное изображение в галерее.
+        Наложение (overlay) поверх каждого блока, содержащее иконку "tf-ion-ios-search" и ссылку, которая ведет на увеличенное изображение (используется для создания эффекта попапа).
+        Изображения (img) в каждом блоке, которые отображаются в галерее.
+
+
+
+        section class="call-to-action section bg-opacity bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow text-center">
+                        <div class="block">
+                            <h2 class="subheading">Get Product Updates</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="input-group">
+                                  <input type="text" class="form-control" placeholder="Your Email Address Here">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default btn-main" type="button">Subscribe</button>
+                                  </span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        Этот код представляет собой раздел на странице с вызовом к действию (call to action). Он имеет класс "call-to-action" и находится внутри секции с классами "bg-opacity" и "bg-1".
+        В разделе находится контейнер с классом "container", который содержит строку с классом "row". В строке находится блок с классом "col-md-12 wow text-center", который содержит заголовок с классом "subheading" и параграф текста.
+        Под заголовком и текстом находится форма подписки на обновления продукта. Форма содержит поле ввода электронной почты с классом "form-control" и кнопку "Подписаться" с классами "btn btn-default btn-main".
+        Код также использует некоторые сторонние библиотеки, такие как "wow" для создания анимации при появлении элемента на странице.
+
+
+        <section class="testimonials section">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Watch Review</h2>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="testimonial-block">
+                            <i class="tf-ion-quote"></i>
+                            <p>
+                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. 
+                            </p>
+                            <div class="author-details">
+                                <img src="images/avater.png" alt="">
+                                <h4>Jonathon Andrew</h4>
+                                <span>CEO, Themefisher</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="testimonial-block">
+                            <i class="tf-ion-quote"></i>
+                            <p>
+                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, perferendis.
+                            </p>
+                            <div class="author-details">
+                                <img src="images/avater.png" alt="">
+                                <h4>Jonathon Andrew</h4>
+                                <span>CEO, Themefisher</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="testimonial-block">
+                            <i class="tf-ion-quote"></i>
+                            <p>
+                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. 
+                            </p>
+                            <div class="author-details">
+                                <img src="images/avater.png" alt="">
+                                <h4>Jonathon Andrew</h4>
+                                <span>CEO, Themefisher</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-100">
+                    <div class="col-md-12 text-center">
+                        <a href="" class="btn btn-main">Grab You Product Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        Данный код представляет секции "Отзывы". Внутри секции есть контейнер с классом "container", внутри которого находится строка с классом "row". В этой строке расположены блоки, каждый из которых содержит отзыв и информацию об авторе. Каждый блок состоит из класса "col-md-4 text-center", который задает стиль для колонки в 4 столбца и выравнивание содержимого по центру. Внутри блока находится элемент "div" с классом "testimonial-block", который содержит иконку цитаты, сам отзыв и информацию об авторе внутри элемента "div" с классом "author-details". Кроме того, в конце секции находится строка с кнопкой, ведущей на страницу для приобретения продукта, заданная с помощью элемента "a" с классом "btn btn-main".
+
+
+        <footer>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <a href="" class="footer-logo">Vex</a>
+                            <ul class="menu">
+                                <li class=" active">
+                                    <a href="#">HOME</a>
+                                </li>
+                                <li class="">
+                                    <a href="#about">ABOUT</a>
+                                </li>
+                                <li class="">
+                                    <a href="#service">SERVICES</a>
+                                </li>
+                                <li class="">
+                                    <a href="#contact">CONTACT</a>
+                                </li>
+                            </ul>
+                            <p class="copyright-text">Copyright &copy; <a href="http://www.Themefisher.com">Themefisher</a>| All right reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        Данный код представляет собой подвал (footer). Подвал состоит из контейнера с классом "container" и строкой с классом "row". Внутри строки находится блок с колонкой в 12 столбцов, который содержит ссылку на логотип "Vex" с классом "footer-logo", меню с пунктами "HOME", "ABOUT", "SERVICES" и "CONTACT", заданными в элементе "ul" с классом "menu" и параграф с текстом "Copyright ©" и ссылкой на сайт "Themefisher".
+        Каждый пункт меню задан элементом "li" с классом "active" для активного пункта "HOME" и классом "" для остальных пунктов, а ссылки на каждый пункт меню заданы элементом "a". Внутри блока также присутствует элемент "div" с классом "block".
+
+
+        <!-- Js -->
+        <script src="js/vendor/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/main.js"></script>
+        Этот код содержит несколько скриптов, которые подключаются к странице:
+        jQuery версии 2.1.1 (из файла "js/vendor/jquery-2.1.1.min.js")
+        Tether версии 1.3.7 (из CDN https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js)
+        Bootstrap версии 4.0.0 alpha 5 (из CDN https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js)
+        Modernizr версии 2.6.2 (из файла "js/vendor/modernizr-2.6.2.min.js")
+        Owl Carousel версии неизвестной (из файла "js/owl.carousel.min.js")
+        Magnific Popup версии неизвестной (из файла "js/jquery.magnific-popup.min.js")
+        Основной JavaScript-код, который находится в файле "js/main.js".
+        Эти скрипты используются для создания интерактивных элементов на странице, таких как карусели (Owl Carousel), всплывающие окна (Magnific Popup) и других элементов, а также для работы с функциями Bootstrap и Modernizr.
+
+*******************************************************************************************************************************************************************************************        
+
+************************** CSS *********************************
+******** style.css **********
+
+body {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #3b4045;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; 
+}
+Этот код является стилями для элемента body на веб-странице.
+font-size: 14px устанавливает размер шрифта в 14 пикселей;
+font-weight: 300 устанавливает нормальную толщину шрифта;
+line-height: 25px устанавливает высоту строки в 25 пикселей;
+color: #3b4045 устанавливает цвет текста в темно-серый (#3b4045);
+font-family: "Josefin Sans", sans-serif устанавливает шрифт текста в "Josefin Sans" и, если этот шрифт недоступен, то использовать другой без засечек (sans-serif);
+-webkit-font-smoothing: antialiased устанавливает сглаживание шрифта для более четкого отображения на экранах с высокой плотностью пикселей, таких как экраны Retina.
+Эти стили влияют на текст на всей веб-странице, которая использует этот CSS файл.
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  margin: 0px; 
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 56px; 
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 35px; 
+}
+
+h3 {
+  font-size: 23px;
+  line-height: 25px; 
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400; 
+}
+Этот код определяет стили для заголовков (h1-h6) на странице.
+font-weight: 300 задает тонкий шрифт (light).
+margin: 0px убирает отступы вокруг заголовков.
+h1-h4 имеют разные размеры шрифта и высоту строки. Значения определяются в font-size и line-height.
+h4 также имеет отличие от других заголовков, так как font-weight равен 400, что является нормальным шрифтом (regular).
+Общее назначение этих стилей - определить согласованный внешний вид для заголовков, чтобы создать единый и красивый дизайн страницы.
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0px; 
+}
+Этот CSS код определяет стили для абзацев (<p>) на веб-странице.
+font-size устанавливает размер шрифта текста в пикселях, а line-height задает высоту строки.
+margin определяет отступы между абзацами и другими элементами на странице.
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+}
+Этот CSS код устанавливает нулевые отступы и отключает маркеры списка для элемента ul, что позволяет создавать свой собственный дизайн для списка. Он также устанавливает нулевые значения для внутренних и внешних отступов (padding и margin) для элемента ul, чтобы избежать неожиданных отступов вокруг списка.
+
+a {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; 
+}
+Этот CSS-код задает анимацию для всех ссылок (a), которая применяется при их наведении и снятии курсора. Анимация плавно изменяет все свойства элемента, которые могут быть изменены, такие как цвет, фон, размер и т.д., с использованием эффекта "ease-in-out", который делает изменения более плавными. Эти переходы сглаживают изменения свойств ссылки и могут помочь создать более привлекательный пользовательский интерфейс.
+
+
+.mt-100 {
+  margin-top: 100px; 
+}
+
+.bg-1 {
+  background-image: url(../images/call-to-action.jpg); 
+}
+
+.bg-opacity {
+  position: relative; 
+}
+  .bg-opacity:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+  }
+Класс .mt-100 устанавливает верхний отступ в 100 пикселей для элемента, к которому он будет применен.
+Класс .bg-1 устанавливает фоновое изображение для элемента, к которому он будет применен.
+Класс .bg-opacity задает относительное позиционирование для элемента, к которому он будет применен, а псевдоэлемент :before создает элемент с полностью непрозрачным фоном черного цвета и располагается ниже элемента, к которому он применен. Таким образом, позволяет создать эффект полупрозрачности фона, что может использоваться для улучшения читаемости текста на фоне изображения.  
+
+a:focus,
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none;
+  outline: 0 none; 
+}
+
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none; 
+}
+Первый код блок удаляет тень и контур при получении фокуса элементом <a> или <button>, чтобы элемент не выделялся при нажатии или активации.
+Второй код блок удаляет подчеркивание текста ссылки при наведении, а также при нажатии и активации, чтобы сделать ссылки более стилизованными и согласованными с дизайном сайта.
+
+.section {
+  padding: 100px 0; 
+}
+Этот код задает отступы (padding) в 100 пикселей сверху и снизу для всех элементов с классом "section". Это может использоваться для разделения различных разделов на странице и улучшения их читаемости.
+
+.heading {
+  text-align: center;
+  color: #777777;
+  padding-bottom: 70px; 
+}
+  .heading h2 {
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px; 
+  }
+  .heading p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 300; 
+  }
+Этот код описывает стили для заголовка страницы (heading), который расположен по центру страницы, имеет цвет текста #777777 и отступ внизу в 70 пикселей.
+Заголовок содержит два элемента: заголовок второго уровня (h2) и абзац (p). Заголовок второго уровня имеет цвет текста #3c3c3c, отступ внизу в 15 пикселей, преобразование текста в заглавные буквы, жирный шрифт (font-weight: 700), размер шрифта 40 пикселей и высоту строки 40 пикселей. Абзац имеет размер шрифта 17 пикселей, высоту строки 24 пикселя и жирность 300.
+
+.subheading {
+  color: #3c3c3c;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px; 
+}
+Этот код определяет стили для элемента с классом "subheading". Он устанавливает цвет текста (#3c3c3c), отступ снизу (padding-bottom: 15px), преобразует текст в заглавные буквы (text-transform: capitalize), задает жирность шрифта (font-weight: 500), размер шрифта (font-size: 32px) и межстрочный интервал (line-height: 45px). В целом, эти стили создают крупный заголовок со стилем подзаголовка.
+
+.btn-main {
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 15px 40px;
+  display: inline-block;
+  background-color: #f9a743;
+  -moz-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+  -webkit-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+  background-image: -moz-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+  background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%); 
+}
+данный код задает стиль для кнопки с классом "btn-main". Описание каждого свойства стилей:
+color: #fff; - устанавливает белый цвет текста на кнопке.
+border-radius: 30px; - задает скругленные углы у границ кнопки.
+font-size: 18px; - устанавливает размер шрифта текста на кнопке в 18 пикселей.
+padding: 15px 40px; - устанавливает размер отступа вокруг текста кнопки.
+display: inline-block; - задает элементу тип "inline-block", чтобы кнопка занимала только необходимое ей пространство.
+background-color: #f9a743; - устанавливает фоновый цвет кнопки в оранжевый (#f9a743).
+-moz-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5); - задает тень вокруг кнопки на браузерах Firefox.
+-webkit-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5); - задает тень вокруг кнопки на браузерах WebKit.
+box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5); - задает тень вокруг кнопки на остальных браузерах.
+background-image: -moz-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%); - задает градиентный фон для кнопки на браузерах Firefox.
+background-image: -o-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%); - задает градиентный фон для кнопки на браузерах Opera.
+background-image: -webkit-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%); - задает градиентный фон для кнопки на браузерах WebKit.
+background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%); - задает градиентный фон для кнопки на остальных браузерах.
+Также данный код содержит стили для состояния наведения (.btn-main:hover) и фокуса (.btn-main:focus) на кнопке. В этих случаях задаются следующие свойства стилей:
+background-color: #f9a743; - устанавливает оранжевый цвет фона.
+  
+  
+  .btn-main:hover, .btn-main:focus {
+    background-color: #f9a743;
+    color: #fff; 
+  }
+
+.btn-main-sm {
+  padding: 12px 35px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold; 
+}
+Это стили для кнопок:
+.btn-main задает стиль для основной кнопки:
+color: #fff задает белый цвет текста;
+border-radius: 30px задает скругление углов равное 30 пикселям;
+font-size: 18px задает размер шрифта 18 пикселей;
+padding: 15px 40px задает отступы в 15 пикселей сверху и снизу и 40 пикселей слева и справа;
+display: inline-block задает, что кнопка будет отображаться как блочный элемент на одной строке с другими элементами;
+background-color: #f9a743 задает фоновый цвет кнопки;
+box-shadow задает тень для кнопки;
+background-image задает градиентный фон для кнопки.
+.btn-main:hover, .btn-main:focus задает стиль для состояния наведения и фокусировки на кнопке:
+background-color: #f9a743 задает фоновый цвет кнопки;
+color: #fff задает белый цвет текста.
+.btn-main-sm задает стиль для меньших кнопок:
+padding: 12px 35px задает отступы в 12 пикселей сверху и снизу и 35 пикселей слева и справа;
+text-transform: uppercase задает, что текст на кнопке будет отображаться в верхнем регистре;
+font-size: 14px задает размер шрифта 14 пикселей;
+font-weight: bold задает жирное начертание для текста на кнопке.
+
+
+#preloader-wrapper {
+  background-color: #fff;
+  bottom: auto;
+  height: 100%;
+  left: auto;
+  position: fixed;
+  right: auto;
+  top: auto;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+Этот код стилизует элемент с идентификатором "preloader-wrapper".
+Свойство "background-color" задает цвет фона элемента, в данном случае - белый (#fff).
+Свойство "bottom" устанавливает расстояние от нижнего края элемента до нижней границы видимой области страницы. В данном случае значение свойства установлено в "auto", что означает, что расстояние будет определено автоматически.
+Свойство "height" задает высоту элемента. В данном случае высота установлена на 100% от высоты видимой области страницы.
+Свойство "left" устанавливает расстояние от левого края элемента до левой границы видимой области страницы. В данном случае значение свойства установлено в "auto", что означает, что расстояние будет определено автоматически.
+Свойство "position" задает тип позиционирования элемента. В данном случае установлено значение "fixed", что означает, что элемент будет зафиксирован на экране и не будет изменять свое положение при прокрутке страницы.
+Свойство "right" устанавливает расстояние от правого края элемента до правой границы видимой области страницы. В данном случае значение свойства установлено в "auto", что означает, что расстояние будет определено автоматически.
+Свойство "top" устанавливает расстояние от верхнего края элемента до верхней границы видимой области страницы. В данном случае значение свойства установлено в "auto", что означает, что расстояние будет определено автоматически.
+Свойство "width" задает ширину элемента. В данном случае ширина установлена на 100% от ширины видимой области страницы.
+Свойство "z-index" задает порядок наложения элементов на странице. Значение 9999 означает, что элемент будет находиться "выше" (более важным) чем элементы со значением z-index ниже.
+Свойства "display", "justify-content" и "align-items" используются вместе для управления размещением содержимого элемента. "Display: flex" задает элементу гибкую раскладку (Flexbox), а свойства "justify-content" и "align-items" определяют соответственно горизонтальное и вертикальное выравнивание содержимого по центру элемента.
+
+
+.pre-loader {
+  width: 130px;
+  height: 130px;
+  background: #f9a743;
+  border-radius: 50%;
+  animation: loading 6s infinite reverse linear;
+  position: relative;
+  font-family: "themefisher-font" !important; 
+}
+  .pre-loader:before {
+    content: "\f3bd";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+  }
+Этот код стилизует прелоадер, который представляет собой круглый элемент с иконкой в центре.
+Стили для .pre-loader задают размер, цвет фона и скругление углов, а также анимацию с помощью свойства animation. Анимация loading будет продолжаться бесконечно (infinite), она задает направление (reverse) и линейную функцию времени (linear).
+Стили для pre-loader:before создают псевдоэлемент :before, который содержит иконку из шрифта "themefisher-font" с помощью свойства content. Элемент размещается в центре блока с помощью position, top, left и transform. Цвет иконки задается через color.
+
+
+@keyframes loading {
+  /*  */
+  0% {
+    box-shadow: inset 0 0 0 80px #f9a743; }
+  8.49% {
+    background: #f9a743;
+    box-shadow: inset 0 0 0 160px #f9a743; }
+  /* orange */
+  8.5% {
+    box-shadow: inset 0 0 0 0 #ff8133; }
+  24.99% {
+    background: #ff8133;
+    box-shadow: inset 0 0 0 160px #ff8133; }
+  /* yellow */
+  25% {
+    box-shadow: inset 0 0 0 0 #ffbe1a; }
+  41.49% {
+    background: #ffbe1a;
+    box-shadow: inset 0 0 0 160px #ffbe1a; }
+  /*  */
+  41.5% {
+    box-shadow: inset 0 0 0 0 #f9a743; }
+  57.99% {
+    background: #f9a743;
+    box-shadow: inset 0 0 0 160px #f9a743; }
+  /* blue */
+  58% {
+    box-shadow: inset 0 0 0 0 #00b5d9; }
+  74.49% {
+    background: #00b5d9;
+    box-shadow: inset 0 0 0 160px #00b5d9; }
+  /* purple */
+  74.5% {
+    box-shadow: inset 0 0 0 0 #9772e5; }
+  90.99% {
+    background: #9772e5;
+    box-shadow: inset 0 0 0 160px #9772e5; }
+  /*  */
+  91% {
+    box-shadow: inset 0 0 0 0 #f9a743; }
+  100% {
+    background: #f9a743;
+    box-shadow: inset 0 0 0 80px #f9a743; } 
+}
+Этот код определяет анимацию для элемента с классом .pre-loader, которая показывает изменение цвета фона и тени, создавая эффект пульсации. Анимация задается с помощью ключевых кадров @keyframes, которые определяют стиль элемента на разных временных отрезках.
+В данном случае анимация состоит из 11 ключевых кадров, каждый из которых определяет стиль элемента на определенном промежутке времени. На каждом кадре задаются цвет фона и тени элемента с помощью свойства background и box-shadow.
+Для создания эффекта пульсации используется свойство inset, которое указывает, что тень должна быть внутри элемента. Также используется свойство box-shadow с параметром 0 0 0 Xpx Y, где X - размер тени, а Y - ее цвет.
+Для каждого кадра анимации задается значение box-shadow с разным размером и цветом тени, чтобы создать эффект изменения цвета и размера элемента.
+Наконец, свойство animation определяет, какая анимация должна быть использована, а именно - loading. Оно также указывает, что анимация должна продолжаться бесконечно (infinite), в обратном направлении (reverse) и с постоянной скоростью (linear).
+
+/*--
+    .hero-area start
+--*/
+.hero-area {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+  .hero-area h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 19px;
+    margin-top: 30px;
+    line-height: 1.2; 
+  }
+  .hero-area p {
+    font-size: 20px;
+    line-height: 1.3; 
+  }
+  .hero-area .btn-main {
+    margin-top: 30px; 
+  }
+Этот код задает стили для секции на странице с классом "hero-area", которая предполагается быть главным блоком, например, на главной странице сайта.
+Стили для секции включают высоту 90% от высоты видимого экрана, а также центрирование содержимого по вертикали и горизонтали с помощью свойств "display: flex", "justify-content: center" и "align-items: center".
+Далее заданы стили для заголовка с тегом "h1", включая размер шрифта, жирность, отступы и высоту строки. Стили для абзаца с тегом "p" включают размер шрифта и высоту строки.
+Наконец, определены стили для кнопки с классом "btn-main", включая отступ сверху
+
+
+.navigation {
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 10px 50px;
+  margin: 0;
+  border: 0; 
+}
+Этот код задает стили для навигационного меню.
+background-color задает цвет фона, в данном случае прозрачный.
+transition задает анимацию для изменения свойств при наведении курсора на элементы меню. В данном случае анимация задается для всех свойств с длительностью 0.3 секунды и функцией плавности ease-in-out.
+padding задает внутренние отступы для элементов меню в 10 пикселей сверху и снизу и 50 пикселей слева и справа.
+margin задает внешние отступы для меню, в данном случае равны нулю.
+border задает рамку для меню, в данном случае рамка отсутствует.
+Префиксы -webkit-, -moz-, -ms-, -o- используются для поддержки соответствующих браузеров.
+
+.navigation .navbar-brand {
+    display: inline-block; 
+}
+.navigation .navbar-toggler {
+    background: #fff;
+    outline: none;
+    border-radius: 0;
+    float: right; 
+}
+.navigation .navbar-toggler i {
+    font-size: 22px; 
+}
+Этот код содержит стили для элементов навигационной панели, включая логотип (.navbar-brand) и кнопку "бургер" (.navbar-toggler) для отображения меню на мобильных устройствах.
+.navigation .navbar-brand имеет свойство display: inline-block;, которое делает логотип блочным элементом, но позволяет разместить его в ряду с другими элементами.
+.navigation .navbar-toggler имеет свойства, управляющие стилем кнопки "бургер", включая цвет фона, радиус границы, плавающее расположение справа и отсутствие контура.
+.navigation .navbar-toggler i устанавливает размер иконки, используемой в кнопке "бургер".
+
+.logo {
+  display: inline-block; 
+}
+  .logo h1 {
+    color: #444;
+    font-size: 25px;
+    margin: 0;
+    line-height: 1; 
+  }
+Этот код задает стили для логотипа.
+.logo - это класс для элемента логотипа.
+display: inline-block; - задает значение свойства display для элемента logo, которое позволяет элементу располагаться в строке и вести себя как блочный элемент.
+.logo h1 - это селектор для заголовка внутри элемента logo.
+color: #444; - задает цвет текста заголовка.
+font-size: 25px; - задает размер шрифта заголовка.
+margin: 0; - убирает отступы вокруг заголовка.
+line-height: 1; - задает высоту строки текста заголовка.
+
+.menu {
+  margin-top: 14px; 
+}
+  .menu li {
+    display: inline-block;
+    margin: 0 10px; 
+  }
+    .menu li a {
+      color: #444;
+      font-size: 14px;
+      font-weight: bold; 
+    }
+      .menu li a:hover, .menu li a:focus {
+        background: none; 
+      }
+Этот код относится к стилям меню (навигационной панели).
+.menu задает отступ сверху для элементов списка меню.
+.menu li задает элементам списка меню стиль inline-block для их расположения в одной строке, а также отступы слева и справа между элементами.
+.menu li a задает элементам ссылок в меню цвет, размер шрифта и жирность шрифта.
+.menu li a:hover, .menu li a:focus определяет стили, которые будут применены к ссылке при наведении курсора мыши или фокусе на ней. Здесь задается прозрачный фон, что означает, что при наведении или фокусировке на ссылке фон не будет меняться.
+
+.feature.section {
+  padding-bottom: 100px; 
+}  
+.feature .feature-box {
+  margin-bottom: 40px; 
+}
+  .feature .feature-box i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: inline-block; 
+  }
+  .feature .feature-box h4 {
+    font-weight: bold;
+    margin-bottom: 8px; 
+  }
+  .feature .feature-box p {
+    line-height: 1.1; 
+  }
+Этот код задает стили для секции "feature".
+Первый блок (.feature.section) задает отступ внизу секции на 100px.
+Блок .feature-box определяет стиль для блоков, содержащих элементы секции. У этих блоков есть отступ снизу на 40px.
+Тег i внутри .feature-box имеет размер шрифта 30px, отступ снизу на 10px и отображается как блочный элемент.
+Заголовок h4 внутри .feature-box имеет жирный шрифт и отступ снизу на 8px.
+Тег p внутри .feature-box имеет высоту строки 1.1.
+
+.promo-details {
+  background: #f9a743; 
+}
+  .promo-details h2 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    text-align: left; 
+  }
+  .promo-details p {
+    color: #fff;
+    font-size: 18px; 
+  }
+Класс promo-details отвечает за стилизацию элементов секции, имеющей фоновый цвет #f9a743.
+.promo-details h2 задает стили для заголовка внутри секции: цвет текста белый, жирность шрифта 700, отступ снизу 10px, выравнивание по левому краю.
+.promo-details p задает стили для текста внутри секции: цвет текста белый, размер шрифта 18px.
+
+.feature-list .btn-main {
+  margin-top: 15px; 
+}
+Этот код добавляет стиль для кнопок, находящихся в блоке "feature-list". Он задает отступ сверху для этих кнопок на 15 пикселей.
+
+.gallery {
+  padding-bottom: 100px; 
+}
+  .gallery .owl-item {
+    overflow: hidden;
+    position: relative; 
+  }
+  .gallery .block {
+    padding: 20px; 
+  }
+    .gallery .block:hover .gallery-overlay {
+      webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; 
+    }
+Этот код определяет стили для элемента галереи с использованием библиотеки Owl Carousel.
+.gallery задает отступ снизу для элемента галереи.
+.gallery .owl-item определяет свойства для каждого элемента галереи, включая скрытие лишних элементов, если они выходят за границы.
+.gallery .block задает отступы для блока внутри каждого элемента галереи.
+.gallery .block:hover .gallery-overlay определяет стили для элемента оверлея, который появляется при наведении на изображение в галерее. Здесь используется CSS-трансформация для увеличения размера элемента, а также изменение прозрачности с помощью opacity. В строке "-ms-filter" прописана альтернатива для старых версий Internet Explorer.
+
+.gallery .gallery-overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    color: inherit;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    z-index: 2;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+}
+Этот код стилизует наложение, которое появляется при наведении на изображения в галерее. Оно имеет следующие свойства:
+position: absolute; - указывает, что элемент должен быть расположен абсолютно относительно своего первого позиционированного предка.
+bottom: 15px; - задает расстояние между нижней границей элемента и нижней границей блока-контейнера.
+left: 15px; - задает расстояние между левой границей элемента и левой границей блока-контейнера.
+right: 15px; - задает расстояние между правой границей элемента и правой границей блока-контейнера.
+top: 15px; - задает расстояние между верхней границей элемента и верхней границей блока-контейнера.
+background: rgba(255, 255, 255, 0.85); - задает цвет фона наложения. rgba() - это функция для определения цвета в формате RGBA, где первые три параметра задают красный, зеленый и синий каналы цвета, а четвертый параметр задает прозрачность.
+text-decoration: none; - убирает стандартное оформление подчеркивания текста при наведении на элемент.
+color: inherit; - задает цвет текста для наложения такой же, как и у родительского элемента.
+-webkit-transform: scale(0.5); transform: scale(0.5); - задает уменьшение масштаба элемента в 2 раза по обеим осям.
+-webkit-transition: all .3s; transition: all .3s; - задает плавный переход всех свойств элемента с длительностью 0.3 секунды.
+z-index: 2; - задает z-индекс элемента, определяющий, насколько он находится впереди или позади других элементов.
+opacity: 0; - задает прозрачность элемента, установленную на ноль.
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; - определяет прозрачность элемента для браузеров, использующих синтаксис фильтров Microsoft.
+
+    .gallery .gallery-overlay .gallery-popup {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background: #f9a743;
+      padding: 5px 10px;
+      border-radius: 40px;
+      width: 50px;
+      height: 50px; 
+    }
+      .gallery .gallery-overlay .gallery-popup i {
+        color: #fff;
+        font-size: 30px;
+        line-height: 40px;
+        display: inline-block; 
+      }
+Этот код описывает стили для всплывающего окна в галерее изображений.
+Селектор .gallery .gallery-overlay .gallery-popup определяет стили для всплывающего окна.
+Стиль text-align: center выравнивает содержимое окна по центру горизонтально.
+position: absolute позволяет расположить окно относительно родительского элемента.
+top: 50% и left: 50% центрируют окно по вертикали и горизонтали соответственно.
+transform: translate(-50%, -50%) смещает окно на половину его ширины и высоты, чтобы центрировать его точно посередине родительского элемента.
+background: #f9a743 устанавливает цвет фона для окна.
+padding: 5px 10px задает внутренние отступы для окна.
+border-radius: 40px создает скругленные углы у окна.
+width: 50px и height: 50px устанавливают ширину и высоту окна.
+Селектор .gallery .gallery-overlay .gallery-popup i определяет стили для иконки, которая будет отображаться внутри окна.
+color: #fff устанавливает белый цвет для иконки.
+font-size: 30px задает размер шрифта для иконки.
+line-height: 40px устанавливает высоту строки для иконки.
+display: inline-block делает иконку блочным элементом и позволяет установить ей отступы.
+
+.testimonials .testimonial-block {
+  padding: 0 10px; 
+}
+  .testimonials .testimonial-block i {
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #f9a743; 
+  }
+  .testimonials .testimonial-block p {
+    font-family: "Droid Serif", serif;
+    font-size: 14px;
+    color: #777; 
+  }
+  .testimonials .testimonial-block .author-details {
+    margin-top: 30px; 
+  }
+    .testimonials .testimonial-block .author-details img {
+      border-radius: 50%;
+      width: 50px; 
+    }
+    .testimonials .testimonial-block .author-details h4 {
+      font-weight: 700;
+      font-size: 20px;
+      margin-top: 10px; 
+    }
+Класс .testimonials .testimonial-block содержит стили для блока отзывов, который имеет отступы слева и справа на 10 пикселей.
+Внутри блока отзыва идет использование иконки, заданной с помощью тега <i>, у которой размер шрифта 40 пикселей, цвет #f9a743 и она выравнивается по горизонтали (с помощью свойства display: inline-block).
+Текст отзыва находится в теге <p> и имеет размер шрифта 14 пикселей, цвет #777 и шрифт с засечками "Droid Serif".
+Блок, содержащий информацию об авторе отзыва, имеет отступ сверху на 30 пикселей. В этом блоке находится изображение, заданное с помощью тега <img>, которое имеет скругленные углы (с помощью свойства border-radius: 50%) и ширину 50 пикселей. Заголовок с именем автора задан с помощью тега <h4> и имеет жирное начертание, размер шрифта 20 пикселей и отступ сверху на 10 пикселей.
+
+.call-to-action {
+  padding: 90px 0px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative; 
+}
+  .call-to-action .block h2 {
+    margin-bottom: 6px;
+    color: #fff;
+    padding-bottom: 0; 
+  }
+  .call-to-action .block p {
+    padding-right: 30px;
+    color: #fff; 
+  }
+  .call-to-action .block .input-group {
+    margin-top: 30px; 
+  }
+    .call-to-action .block .input-group .btn-main {
+      padding: 13px 40px; 
+    }
+    .call-to-action .block .input-group input {
+      height: 50px;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border: none;
+      padding-left: 15px;
+      box-shadow: none; 
+    }
+Этот код относится к стилизации секции "Call to action" на веб-странице. Основные свойства секции определены в блоке .call-to-action, включая отступы, фоновое изображение, цвет текста и позиционирование.
+Стили для заголовка и текста определены в блоке .call-to-action .block h2 и .call-to-action .block p соответственно.
+Стили для группы ввода (input-group) и кнопки определены в блоке .call-to-action .block .input-group. Особое внимание уделено стилизации кнопки с классом .btn-main, устанавливающей отступы для кнопки и высоту поля ввода. Внешний вид поля ввода определяется свойствами, такими как радиус границы верхнего и нижнего края, отсутствие границы и тень.
+
+footer {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 50px 0px; 
+}
+  footer .footer-logo {
+    color: #555; 
+  }
+  footer p.copyright-text {
+    font-weight: 300;
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 3px;
+    margin-top: 15px; 
+  }
+    footer p.copyright-text a {
+      color: #282828; 
+    }
+      footer p.copyright-text a:hover {
+        text-decoration: none; 
+      }
+Блок "footer" содержит стили для нижней части сайта. Установлено выравнивание текста по центру и фоновый цвет #f4f4f4. Блок имеет отступы сверху и снизу по 50px.
+"footer .footer-logo" задает цвет текста для логотипа внутри футера.
+"footer p.copyright-text" задает стиль для блока с текстом авторского права. Шрифт установлен с весом 300 и размером 12px. Цвет текста - #888, а расстояние между символами - 3px. Также задано верхнее расстояние от блока до остального контента в размере 15px.
+"footer p.copyright-text a" определяет стили для ссылок в блоке авторского права
+При наведении на ссылку, задан стиль "text-decoration: none;", который убирает подчеркивание под ссылкой.
+
+
+******** responsive.css **********
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .navigation {
+    background: rgba(0, 0, 0, 0.3); 
+  }
+    .navigation .navbar-brand {
+      float: none; 
+    } 
+}
+Этот код задает стили для элементов с классом "navigation" и "navbar-brand" при определенном размере экрана.
+@media (min-width: 768px) and (max-width: 990px) { } - это медиа-запрос, который применяет стили только когда ширина экрана находится в заданном диапазоне от 768px до 990px.
+
+.navigation {
+background: rgba(0, 0, 0, 0.3);
+}
+Этот код задает цвет фона элемента с классом "navigation" как полупрозрачный черный цвет (RGBA - красный, зеленый, синий, прозрачность).
+
+.navigation .navbar-brand {
+float: none;
+}
+Этот код отменяет стиль "float" для элемента с классом "navbar-brand" внутри элемента с классом "navigation". Таким образом, эта часть кода предназначена для изменения расположения логотипа в навигационной панели при изменении размера экрана.   
+
+******** owltransitions.css **********
+
+.owl-origin {
+	-webkit-perspective: 1200px;
+	-webkit-perspective-origin-x : 50%;
+	-webkit-perspective-origin-y : 50%;
+	-moz-perspective : 1200px;
+	-moz-perspective-origin-x : 50%;
+	-moz-perspective-origin-y : 50%;
+	perspective : 1200px;
+}
+Этот код задает перспективу и точку обзора для элемента с классом "owl-origin".
+-webkit-perspective: 1200px; - это свойство задает значение перспективы для элемента в веб-браузерах, использующих веб-кит движок, таких как Google Chrome и Safari. Значение 1200px указывает на расстояние между пользователем и плоскостью объекта.
+-webkit-perspective-origin-x : 50%; - это свойство указывает точку обзора по оси X (горизонтальной оси) относительно элемента с классом "owl-origin". Значение 50% означает, что точка обзора находится посередине элемента.
+-webkit-perspective-origin-y : 50%; - это свойство указывает точку обзора по оси Y (вертикальной оси) относительно элемента с классом "owl-origin". Значение 50% означает, что точка обзора находится посередине элемента.
+-moz-perspective : 1200px; - это свойство задает значение перспективы для элемента в веб-браузерах, использующих движок Gecko, таких как Mozilla Firefox.
+-moz-perspective-origin-x : 50%; - это свойство указывает точку обзора по оси X (горизонтальной оси) относительно элемента с классом "owl-origin" в браузере Mozilla Firefox.
+-moz-perspective-origin-y : 50%; - это свойство указывает точку обзора по оси Y (вертикальной оси) относительно элемента с классом "owl-origin" в браузере Mozilla Firefox.
+perspective : 1200px; - это свойство задает значение перспективы для элемента в веб-браузерах, которые не используют веб-кит или движок Gecko.
+Все эти свойства позволяют создавать 3D-эффекты при применении к элементу, что делает визуальное представление веб-страницы более интересным и динамичным.
+
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+Этот код задает анимацию и настройки стилей для элемента с классом "owl-fade-out".
+z-index: 10; - это свойство указывает порядок расположения элемента относительно других элементов на странице. Значение 10 говорит о том, что элемент с классом "owl-fade-out" будет расположен поверх других элементов с меньшим значением z-index.
+-webkit-animation: fadeOut .7s both ease; - это свойство задает анимацию для элемента с классом "owl-fade-out" в браузерах, использующих веб-кит движок, таких как Google Chrome и Safari. Анимация "fadeOut" - это название заданной анимации, .7s - это время, которое будет затрачено на выполнение анимации, both - это значение указывает, что анимация будет применяться к начальному и конечному состоянию элемента, ease - это функция времени анимации.
+-moz-animation: fadeOut .7s both ease; - это свойство задает анимацию для элемента с классом "owl-fade-out" в браузерах, использующих движок Gecko, таких как Mozilla Firefox.
+animation: fadeOut .7s both ease; - это свойство задает анимацию для элемента в веб-браузерах, которые не используют веб-кит или движок Gecko.
+Анимация "fadeOut" используется для плавного затухания элемента, изменения его прозрачности от полностью непрозрачного до полностью прозрачного состояния. Свойство both говорит о том, что анимация будет применена как к начальному, так и к конечному состоянию элемента. Функция времени ease означает, что изменение прозрачности элемента будет происходить плавно.
+
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;
+  animation: fadeIn .7s both ease;
+}
+/* backSlide */
+.owl-backSlide-out {
+  -webkit-animation: backSlideOut 1s both ease;
+  -moz-animation: backSlideOut 1s both ease;
+  animation: backSlideOut 1s both ease;
+}
+.owl-backSlide-in {
+  -webkit-animation: backSlideIn 1s both ease;
+  -moz-animation: backSlideIn 1s both ease;
+  animation: backSlideIn 1s both ease;
+}
+Данный код является набором CSS-анимаций, которые могут быть использованы для элементов на веб-странице.
+Первая анимация "fadeIn" плавно появляет элемент на странице за 0.7 секунды, используя различные анимации для веб-браузеров Chrome, Firefox и других браузеров.
+Вторая анимация "backSlideOut" делает элемент удаляющимся назад с помощью плавного движения за 1 секунду.
+Третья анимация "backSlideIn" делает элемент плавно появляющимся с помощью движения сзади на перед за 1 секунду.
+Обратите внимание на использование свойства "both" - оно указывает, что анимация должна применяться как к свойству "animation" (когда элемент появляется), так и к свойству "transition" (когда элемент исчезает).
+
+
+.owl-goDown-out {
+  -webkit-animation: scaleToFade .7s ease both;
+  -moz-animation: scaleToFade .7s ease both;
+  animation: scaleToFade .7s ease both;
+}
+.owl-goDown-in {
+  -webkit-animation: goDown .6s ease both;
+  -moz-animation: goDown .6s ease both;
+  animation: goDown .6s ease both;
+}
+/* scaleUp */
+.owl-fadeUp-in {
+  -webkit-animation: scaleUpFrom .5s ease both;
+  -moz-animation: scaleUpFrom .5s ease both;
+  animation: scaleUpFrom .5s ease both;
+}
+
+.owl-fadeUp-out {
+  -webkit-animation: scaleUpTo .5s ease both;
+  -moz-animation: scaleUpTo .5s ease both;
+  animation: scaleUpTo .5s ease both;
+}
+Первая анимация "scaleToFade" использует свойство transform для плавного изменения размера элемента в сочетании с эффектом затухания (opacity), чтобы сделать элемент мельче и проявить эффект затухания за 0.7 секунды.
+Вторая анимация "goDown" использует свойство transform, чтобы переместить элемент вниз, создавая эффект движения сверху вниз, с помощью плавного движения за 0.6 секунды.
+Третья анимация "scaleUpFrom" использует свойство transform, чтобы плавно увеличивать размер элемента до его исходного размера за 0.5 секунды.
+Четвертая анимация "scaleUpTo" использует ту же технику, что и "scaleUpFrom", но в обратном направлении - уменьшая размер элемента до небольшого размера и проявляя эффект затухания за 0.5 секунды.
+Обратите внимание на использование свойства "both" - оно указывает, что анимация должна применяться как к свойству "animation" (когда элемент появляется), так и к свойству "transition" (когда элемент исчезает).
+
+
+@-webkit-keyframes empty {
+  0% {opacity: 1}
+}
+@-moz-keyframes empty {
+  0% {opacity: 1}
+}
+@keyframes empty {
+  0% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@-moz-keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+Этот код содержит определения анимаций, которые могут быть использованы для создания эффектов перехода между состояниями элементов на веб-странице.
+Анимации определены с использованием ключевых кадров (keyframes), которые задают свойства элемента на определенный момент времени в течение анимации. В данном коде определены три анимации: empty, fadeIn и fadeOut.
+Анимация empty используется для создания эффекта пустоты (прозрачности) элемента. Она содержит только один ключевой кадр на 0%, который устанавливает свойство opacity в значение 1.
+Анимации fadeIn и fadeOut используются для создания эффектов появления и исчезновения элемента соответственно. Обе анимации содержат два ключевых кадра: на 0% и на 100%. На первом кадре opacity устанавливается в 0, а на последнем - в 1 для fadeIn и в 0 для fadeOut.
+Каждая анимация определена трижды с использованием префиксов для браузеров: -webkit-, -moz- и без префикса. Это необходимо для обеспечения совместимости анимаций с различными браузерами.
+
+@-webkit-keyframes backSlideOut {
+  25% { opacity: .5; -webkit-transform: translateZ(-500px); }
+  75% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+}
+@-moz-keyframes backSlideOut {
+  25% { opacity: .5; -moz-transform: translateZ(-500px); }
+  75% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+}
+@keyframes backSlideOut {
+  25% { opacity: .5; transform: translateZ(-500px); }
+  75% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+}
+Этот код содержит определения анимации с названием backSlideOut, которая может быть использована для создания эффекта выезда элемента на заднем плане
+Анимация backSlideOut определена с использованием ключевых кадров (keyframes), которые задают свойства элемента на определенный момент времени в течение анимации. В данном коде определены три анимации: backSlideOut для браузеров -webkit-, -moz- и без префикса.
+Анимация backSlideOut состоит из трех ключевых кадров: на 25%, 75% и 100%. На первом кадре элемент находится в положении, заданном стилями opacity: .5; и -webkit-transform: translateZ(-500px);, -moz-transform: translateZ(-500px); или transform: translateZ(-500px); в зависимости от браузера. На 75% кадре элемент сдвигается влево на 200% его ширины и продолжает движение на заднем плане, а на 100% кадре движение завершается в том же положении.
+В стилях задаются свойства для анимации opacity и transform, которые изменяют прозрачность и положение элемента на заднем плане. Стили с префиксами -webkit- и -moz- используются для обеспечения совместимости анимации с различными браузерами.
+
+@-webkit-keyframes backSlideIn {
+  0%, 25% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; -webkit-transform: translateZ(-500px); }
+  100% { opacity: 1; -webkit-transform: translateZ(0) translateX(0); }
+}
+@-moz-keyframes backSlideIn {
+  0%, 25% { opacity: .5; -moz-transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; -moz-transform: translateZ(-500px); }
+  100% { opacity: 1; -moz-transform: translateZ(0) translateX(0); }
+}
+@keyframes backSlideIn {
+  0%, 25% { opacity: .5; transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; transform: translateZ(-500px); }
+  100% { opacity: 1; transform: translateZ(0) translateX(0); }
+}
+Этот код содержит определения анимации с названием backSlideIn, которая может быть использована для создания эффекта появления элемента на заднем плане.
+Анимация backSlideIn определена с использованием ключевых кадров (keyframes), которые задают свойства элемента на определенный момент времени в течение анимации. В данном коде определены три анимации: backSlideIn для браузеров -webkit-, -moz- и без префикса.
+Анимация backSlideIn состоит из четырех ключевых кадров: на 0%, 25%, 75% и 100%. На первых двух кадрах элемент находится за пределами видимости на заднем плане, заданным стилями opacity: .5; и -webkit-transform: translateZ(-500px) translateX(200%);, -moz-transform: translateZ(-500px) translateX(200%); или transform: translateZ(-500px) translateX(200%); в зависимости от браузера. На 75% кадре элемент сдвигается вправо на 200% его ширины и продолжает движение на заднем плане, а на 100% кадре движение завершается в положении, заданном свойствами opacity: 1; и -webkit-transform: translateZ(0) translateX(0);, -moz-transform: translateZ(0) translateX(0); или transform: translateZ(0) translateX(0);.
+В стилях задаются свойства для анимации opacity и transform, которые изменяют прозрачность и положение элемента на заднем плане. Стили с префиксами -webkit- и -moz- используются для обеспечения совместимости анимации с различными браузерами.
+
+@-webkit-keyframes scaleToFade {
+  to { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleToFade {
+  to { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleToFade {
+  to { opacity: 0; transform: scale(.8); }
+}
+@-webkit-keyframes goDown {
+  from { -webkit-transform: translateY(-100%); }
+}
+@-moz-keyframes goDown {
+  from { -moz-transform: translateY(-100%); }
+}
+@keyframes goDown {
+  from { transform: translateY(-100%); }
+}
+Этот код описывает  анимации, которые могут быть использованы веб-разработкой для создания анимированных эффектов.
+Первый блок кода описывает анимацию под названием "scaleToFade". Эта анимация начинается с полной непрозрачности и полного размера элемента, а затем постепенно уменьшает его масштаб и делает его прозрачным (с непрозрачностью, равной нулю) в конце анимации. Эта анимация определена в трех различных версиях - для веб-браузеров, использующих префиксы -webkit и -moz, и для современных браузеров без префиксов.
+Второй блок кода описывает анимацию под названием "goDown". Эта анимация начинается с элемента, который находится в положении, сдвинутом на 100% вверх относительно своей исходной позиции. Затем элемент постепенно перемещается вниз до своей исходной позиции. Эта анимация также определена в трех различных версиях для веб-браузеров, использующих префиксы -webkit и -moz, и для современных браузеров без префиксов.
+Общий синтаксис для определения анимации в CSS состоит из нескольких ключевых слов, включая "@keyframes", которое указывает на начало определения анимации, имя анимации, определение ключевых кадров, которые определяют начальное и конечное состояние анимации, и длительность анимации. Анимация может быть применена к элементу на веб-странице с помощью свойства "animation" в CSS.
+
+@-moz-keyframes scaleUpFrom {
+  from { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpFrom {
+  from { opacity: 0; transform: scale(1.5); }
+}
+
+@-webkit-keyframes scaleUpTo {
+  to { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpTo {
+  to { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpTo {
+  to { opacity: 0; transform: scale(1.5); }
+}
+Этот код описывает анимации, которые могут быть использованы веб-разработкой для создания анимированных эффектов.
+Первый блок кода описывает анимацию под названием "scaleUpFrom". Эта анимация начинается с элемента, который не виден на странице, так как его непрозрачность равна нулю, и имеет размер, который на 50% больше его исходного размера. Затем элемент постепенно увеличивает свой масштаб до своего исходного размера и делается полностью непрозрачным в конце анимации. Эта анимация определена в трех различных версиях - для веб-браузеров, использующих префиксы -webkit и -moz, и для современных браузеров без префиксов.
+Второй блок кода описывает анимацию под названием "scaleUpTo". Эта анимация начинается с элемента, который уже находится на странице, и имеет исходный размер. Затем элемент постепенно увеличивает свой масштаб до 50% больше его исходного размера и делается полностью непрозрачным в конце анимации. Эта анимация также определена в трех различных версиях для веб-браузеров, использующих префиксы -webkit и -moz, и для современных браузеров без префиксов.
+Общий синтаксис для определения анимации в CSS состоит из нескольких ключевых слов, включая "@keyframes", которое указывает на начало определения анимации, имя анимации, определение ключевых кадров, которые определяют начальное и конечное состояние анимации, и длительность анимации. Анимация может быть применена к элементу на веб-странице с помощью свойства "animation" в CSS.
+
+******** owlcarousel.css **********
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+Этот код является частью стилей для настройки внешнего вида элемента карусели, которая может быть использована веб-разработчиками для отображения группы изображений или других элементов в форме слайдов, которые могут быть пролистаны вправо или влево.
+Первый блок кода определяет псевдоэлемент, который добавляется внутри элемента "owl-wrapper". Этот элемент используется для очистки стилей и создания новой линии. Он не имеет контента, не виден на странице и имеет высоту и линию, равные нулю. Этот блок кода может быть использован для обеспечения правильного отображения элемента карусели.
+Второй блок кода определяет стили для самого элемента карусели. Изначально он скрыт, так как его свойство "display" установлено на "none". Также установлены позиционирование "position: relative;", ширина "width: 100%;", и свойство "ms-touch-action" для обеспечения обработки касаний на устройствах с операционной системой Windows.
+Третий блок кода определяет стили для элемента "owl-wrapper", который содержит слайды карусели. Он также изначально скрыт с помощью свойства "display: none;", и имеет позиционирование "position: relative;". Для поддержки аппаратного ускорения, используется свойство "-webkit-transform: translate3d(0px, 0px, 0px);".
+Четвертый блок кода определяет стили для внешнего контейнера "owl-wrapper-outer", который содержит элемент "owl-wrapper". Он имеет позиционирование "position: relative;", и свойство "overflow: hidden;" для скрытия содержимого элемента, которое выходит за его границы.
+В целом, этот код определяет необходимые стили для элемента карусели, который может быть использован веб-разработчиками для отображения и прокрутки набора изображений или других элементов в форме слайдов. Он также обеспечивает корректное отображение и скрытие элементов до тех пор, пока карусель не будет инициализирована.
+
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+Этот код содержит набор стилей для настройки карусели (слайдера) на веб-странице с использованием библиотеки Owl Carousel.
+.owl-carousel .owl-wrapper-outer.autoHeight - определяет стили для внешнего контейнера карусели с классом owl-wrapper-outer при использовании автоматической высоты. Устанавливает плавный переход высоты контейнера с продолжительностью 500 миллисекунд и смягчением при изменении размера.
+.owl-carousel .owl-item - определяет стили для элементов карусели с классом owl-item. Устанавливает значение свойства float в left, чтобы расположить элементы горизонтально.
+.owl-controls .owl-page, .owl-controls .owl-buttons div - определяет стили для элементов управления каруселью. Устанавливает значение cursor в pointer, чтобы изменить курсор при наведении на элементы.
+.owl-controls - определяет стили для области элементов управления каруселью. Отключает выделение текста при выделении области, а также устанавливает цвет выделения при касании на прозрачный.
+
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+Этот код содержит набор стилей для карусели (слайдера) на веб-странице, в частности:
+.grabbing - определяет стили для курсора мыши при перемещении элементов карусели. Устанавливает изображение курсора в файл grabbing.png с размерами 8x8 пикселей и добавляет значение move для установки типа курсора.
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item - определяет стили для обертки и элементов карусели, устанавливая для них свойство backface-visibility для улучшения производительности анимации и transform для применения 3D-трансформаций.
+-webkit-backface-visibility, -moz-backface-visibility, -ms-backface-visibility - свойство, которое определяет, будет ли элемент виден на задней стороне своей грани во время трансформации.
+-webkit-transform, -moz-transform, -ms-transform - свойство, которое применяет 2D или 3D трансформацию к элементу. В данном случае устанавливается 3D-трансформация translate3d с параметрами 0, 0, 0, чтобы обеспечить более плавную и производительную анимацию.
+
+
+************owltheme.css***************
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+Этот код содержит стили для кнопок управления каруселью (Next и Prev) в теме Owl Carousel.
+Селектор .owl-theme .owl-controls задает общий стиль для контейнера с кнопками.
+Селектор .owl-theme .owl-controls .owl-buttons div определяет стиль для самих кнопок. В нем указываются размеры, отступы, размер шрифта, радиус границы, цвет фона и прозрачность. Также есть фильтр для IE7, чтобы задать прозрачность.
+В целом, эти стили используются для улучшения внешнего вида элементов управления в карусели.
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+Этот код содержит стили для оформления контролов (управления) слайдером, созданным с помощью плагина Owl Carousel и темы Owl.
+Первый блок стилей отвечает за оформление кнопок "Next" и "Prev". Кнопки имеют заданный цвет фона, размер и форму. Также для них задана прозрачность.
+Далее идут стили для класса "clickable", который добавляется к контролам, чтобы обеспечить совместимость с устройствами, на которых используется тачскрин.
+Последний блок стилей отвечает за оформление пагинации, где каждая точка имеет заданный размер и цвет фона.
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+Этот код содержит стили для различных элементов элементов управления для слайдера, реализованного с помощью плагина Owl Carousel и использующего тему с именем "owl-theme".
+Первый блок стилей отвечает за стилизацию кнопок Next и Prev. Они имеют заданный цвет фона, размер шрифта, скругленные углы и прозрачность при неактивном состоянии.
+Второй блок стилей отвечает за стилизацию точек пагинации. Они имеют заданный размер, цвет фона, скругленные углы и прозрачность при неактивном состоянии.
+Третий блок стилей отвечает за изменение вида точек пагинации, если используется параметр PaginationNumbers, который отображает номера страниц вместо точек.
+Последний блок стилей отвечает за минимальный размер элементов слайдера, который будет использоваться во время загрузки изображений, чтобы предотвратить скачки размера слайдера. В этом блоке задан минимальный размер для элемента со свойством класса "loading".
+
+
+
+************** themefisher-fonts.css *********************
+@font-face {
+  font-family: 'themefisher-font';
+  src:  url('../fonts/themefisher-font.eot?ug5hnh');
+  src:  url('../fonts/themefisher-font.eot?ug5hnh#iefix') format('embedded-opentype'),
+    url('../fonts/themefisher-font.ttf?ug5hnh') format('truetype'),
+    url('../fonts/themefisher-font.woff?ug5hnh') format('woff'),
+    url('../fonts/themefisher-font.svg?ug5hnh#themefisher-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+Этот код определяет новый шрифт для веб-страницы с помощью CSS-правила @font-face.
+Свойство font-family устанавливает имя нового шрифта, которое может быть использовано в других CSS-правилах.
+Свойство src определяет источники файлов для загрузки шрифта. В данном случае, определены четыре источника, которые используют различные форматы шрифтов, чтобы обеспечить совместимость с различными браузерами.
+Свойства font-weight и font-style устанавливают соответственно вес и стиль шрифта.
+Этот конкретный код определяет новый шрифт с именем "themefisher-font", который может быть загружен из разных источников, и который имеет нормальный вес и стиль.
+
+[class^="tf-"], [class*=" tf-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'themefisher-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+Данный код задает стиль для всех элементов, у которых класс начинается на "tf-" или содержит " tf-". Он устанавливает шрифт "themefisher-font" для этих элементов с помощью правила @font-face. Также заданы некоторые дополнительные параметры шрифта, такие как speak, font-style, font-weight, font-variant, text-transform и line-height. Для лучшего отображения текста на разных устройствах используется -webkit-font-smoothing и -moz-osx-font-smoothing. Кроме того, используется !important, чтобы предотвратить проблемы с расширениями браузера, которые могут изменять шрифты.
+
+.tf-ion-alert-circled:before {
+  content: "\f100";
+}
+.tf-ion-alert:before {
+  content: "\f101";
+}
+.tf-ion-android-add-circle:before {
+  content: "\f359";
+}
+.tf-ion-android-add:before {
+  content: "\f2c7";
+}
+.tf-ion-android-alarm-clock:before {
+  content: "\f35a";
+}
+Код задает внешний вид для набора иконок используя псевдоэлемент before и символьные коды из шрифта "themefisher-font".
+Классы .tf-ion-alert-circled, .tf-ion-alert, .tf-ion-android-add-circle, .tf-ion-android-add, .tf-ion-android-alarm-clock задают символьный код для соответствующих иконок, которые отображаются в качестве содержимого псевдоэлемента before.
+Например, символьный код для иконки .tf-ion-alert-circled - \f100, который вставляется в содержимое псевдоэлемента before с помощью свойства content. Аналогично задаются символьные коды для других иконок.
+
+там еще....................................
+
+***************** magnific-popup.css**********************
+
+/* Magnific Popup CSS */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8; 
+}
+Этот код содержит стили для элемента с классом .mfp-bg, который используется в библиотеке Magnific Popup для создания оверлея (затемнения) на странице при открытии модального окна.
+Стили устанавливают следующие параметры для элемента .mfp-bg:
+top: 0;, left: 0; - позиционирование элемента в левом верхнем углу страницы;
+width: 100%;, height: 100%; - установка ширины и высоты элемента в 100% от размеров окна браузера;
+z-index: 1042; - задание индекса z-позиции элемента, чтобы он располагался над остальными элементами на странице;
+overflow: hidden; - скрытие содержимого элемента, которое выходит за границы его размеров;
+position: fixed; - установка позиционирования элемента фиксированно относительно окна браузера;
+background: #0b0b0b; - установка цвета фона элемента;
+opacity: 0.8; - установка уровня прозрачности элемента.
+
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; 
+}
+
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box; 
+}
+Этот код определяет стили для Magnific Popup, который является популярным jQuery-плагином для создания модальных окон и галерей изображений.
+.mfp-wrap - обертка для модального окна, которая фиксирована на месте и занимает всю видимую область. Установлены базовые стили для позиционирования, а также отключено подчеркивание при фокусировке.
+.mfp-container - контейнер, который содержит контент модального окна. Установлены базовые стили для позиционирования, выравнивания по центру, а также для боковых отступов (padding) и box-sizing.
+
+
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; 
+}
+
+.mfp-align-top .mfp-container:before {
+  display: none; 
+}
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+Этот код описывает стили для элементов, используемых в попап-окнах, создаваемых с помощью плагина Magnific Popup.
+Первый блок стилей задает псевдоэлемент ::before для контейнера попапа (mfp-container). Этот псевдоэлемент имеет высоту 100% и выравнивается по вертикали (с помощью свойства vertical-align: middle). Он используется для центрирования контента попапа.
+Второй блок стилей скрывает псевдоэлемент ::before, если контент попапа выровнен по верхнему краю (.mfp-align-top .mfp-container:before).
+Третий блок стилей задает позиционирование и выравнивание контейнера попапа (mfp-content). Он также центрируется по вертикали и горизонтали и имеет относительное позиционирование (position: relative).
+
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto; 
+}
+
+.mfp-ajax-cur {
+  cursor: progress; 
+}
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; 
+}
+
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; 
+}
+
+
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; 
+}
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; 
+}
+Этот код представляет набор правил CSS, которые определяют стиль элементов во всплывающем окне. Всплывающее окно, вероятно, является частью веб-сайта или приложения, которое использует плагин Magnific Popup.
+Первое правило устанавливает ширину содержимого внутри всплывающего окна на 100% и устанавливает курсор по умолчанию. Второе правило устанавливает курсор в режим "progress" во время AJAX-запроса.
+Третье правило устанавливает курсор в режим "zoom-out" для элементов внутри всплывающего окна, которые могут быть уменьшены. Четвертое правило устанавливает курсор в режим "zoom-in" для элементов внутри всплывающего окна, которые могут быть увеличены.
+Пятое правило устанавливает курсор по умолчанию для содержимого внутри всплывающего окна. Последнее правило устанавливает свойство user-select в значение "none" для элементов внутри всплывающего окна, которые включают кнопку закрытия, навигационные стрелки, индикатор загрузки или счетчик. Это предотвращает выбор этих элементов пользователем и мешает работе всплывающего окна.
+
+.mfp-hide {
+  display: none !important; 
+}
+
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044; 
+}
+  .mfp-preloader a {
+    color: #CCC; 
+  }
+    .mfp-preloader a:hover {
+      color: #FFF; 
+    }
+
+.mfp-s-ready .mfp-preloader {
+  display: none; 
+}
+
+.mfp-s-error .mfp-content {
+  display: none; 
+}
+Этот код определяет стили для всплывающих окон на веб-сайте или в приложении.
+Первое правило .mfp-hide устанавливает элемент в спрятанном состоянии с помощью свойства display: none !important;.
+Следующий блок стилей .mfp-preloader устанавливает стиль индикатора загрузки внутри всплывающего окна. Он устанавливает цвет, позицию, ширину, выравнивание, отступы и значение z-index для индикатора загрузки. Этот блок также определяет стили ссылок внутри индикатора загрузки.
+Блок стилей .mfp-s-ready .mfp-preloader скрывает индикатор загрузки, когда всплывающее окно готово к отображению.
+Блок стилей .mfp-s-error .mfp-content скрывает содержимое всплывающего окна в случае ошибки загрузки.
+
+button.mfp-close,
+button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+  touch-action: manipulation; 
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; 
+}
+Этот код определяет стили для кнопок закрытия и навигационных стрелок внутри всплывающих окон на веб-сайте или в приложении.
+Первое правило устанавливает свойства для кнопок закрытия и навигационных стрелок, такие как: overflow, cursor, background, border, appearance, display, outline, padding, z-index, box-shadow и touch-action.
+Свойство overflow: visible позволяет содержимому кнопок перекрывать границы кнопок. Cursor: pointer устанавливает форму курсора при наведении на кнопки. Background: transparent и border: 0 удаляют фон и границу кнопок.
+-webkit-appearance: none удаляет стандартные стили от браузера для кнопок в Safari и других браузерах, основанных на WebKit.
+Display: block устанавливает кнопки как блочные элементы, а outline: none удаляет внешнюю рамку кнопки при нажатии.
+Padding: 0 устанавливает нулевой отступ для содержимого кнопок, а z-index: 1046 устанавливает значение z-index, чтобы кнопки могли быть отображены поверх других элементов внутри всплывающего окна.
+Box-shadow: none удаляет тень для кнопок, а touch-action: manipulation устанавливает значение touch-action, чтобы кнопки реагировали на касания на устройствах с сенсорными экранами.
+Последнее правило устанавливает нулевой отступ и границу для кнопок в Firefox, используя псевдоэлемент ::-moz-focus-inner.
+
+
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace; 
+}
+  .mfp-close:hover,
+  .mfp-close:focus {
+    opacity: 1; 
+  }
+  .mfp-close:active {
+    top: 1px; 
+  }
+Этот код определяет стили для кнопки закрытия всплывающего окна.
+Свойства width, height и line-height устанавливают размер кнопки. Position: absolute позволяет кнопке быть расположенной в любом месте окна, а right: 0 и top: 0 устанавливают положение кнопки в правом верхнем углу.
+Text-decoration: none удаляет подчеркивание ссылки. Text-align: center устанавливает выравнивание текста по центру кнопки.
+Свойство Opacity: 0.65 задает прозрачность кнопки, а padding: 0 0 18px 10px устанавливает внутренние отступы для текста кнопки.
+Color: #FFF задает цвет текста кнопки, font-style: normal устанавливает обычное начертание для текста, font-size: 28px задает размер шрифта, а font-family: Arial, Baskerville, monospace определяет шрифт, используемый для текста кнопки.
+Псевдоклассы :hover и :focus устанавливают свойства при наведении на кнопку или при получении кнопкой фокуса, соответственно. Opacity: 1 устанавливает полную непрозрачность для кнопки при наведении, а :active задает свойства при нажатии на кнопку, такие как небольшой отступ вниз относительно начального положения.
+
+.mfp-close-btn-in .mfp-close {
+  color: #333; 
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%; 
+}
+
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap; 
+}
+Первое правило стиля .mfp-close-btn-in .mfp-close задает цвет текста для элемента с классом mfp-close, который находится внутри элемента с классом mfp-close-btn-in. Цвет устанавливается равным #333.
+Второе правило стиля .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close задает цвет текста и другие свойства для элемента с классом mfp-close, который находится внутри элементов с классами mfp-image-holder или mfp-iframe-holder. Цвет устанавливается равным #FFF, а также задается его положение справа (right: -6px), выравнивание по правому краю (text-align: right), отступ справа (padding-right: 6px) и ширина, равная 100% ширины родительского элемента.
+Третье правило стиля .mfp-counter задает свойства для элемента с классом mfp-counter. Он имеет абсолютное позиционирование в верхнем правом углу родительского элемента. Цвет текста устанавливается равным #CCC, размер шрифта равен 12 пикселям, высота строки равна 18 пикселям, а также запрещается переносить текст на новую строку (white-space: nowrap).
+
+
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent; }
+  .mfp-arrow:active {
+    margin-top: -54px; 
+  }
+  .mfp-arrow:hover,
+  .mfp-arrow:focus {
+    opacity: 1; 
+  }
+  .mfp-arrow:before,
+  .mfp-arrow:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 35px;
+    margin-left: 35px;
+    border: medium inset transparent; 
+  }
+  .mfp-arrow:after {
+    border-top-width: 13px;
+    border-bottom-width: 13px;
+    top: 8px; 
+  }
+  .mfp-arrow:before {
+    border-top-width: 21px;
+    border-bottom-width: 21px;
+    opacity: 0.7; 
+  }
+Данный код отвечает за стили кнопок-стрелок (mfp-arrow) для управления слайдером/галереей изображений в модальном окне.
+Стили определяют положение кнопок (position: absolute), их размеры (width, height), прозрачность (opacity), маргины и отступы (margin, padding), а также цвет, вид и расположение стрелок (before, after).
+Также в стилях устанавливаются свойства для состояний элементов при наведении или активации (hover, active, focus) и задаются настройки для избежания эффекта подсветки при клике на элемент (webkit-tap-highlight-color: transparent).
+
+.mfp-arrow-left {
+  left: 0; 
+}
+  .mfp-arrow-left:after {
+    border-right: 17px solid #FFF;
+    margin-left: 31px;
+  }
+  .mfp-arrow-left:before {
+    margin-left: 25px;
+    border-right: 27px solid #3F3F3F;
+  }
+
+.mfp-arrow-right {
+  right: 0; 
+}
+  .mfp-arrow-right:after {
+    border-left: 17px solid #FFF;
+    margin-left: 39px; 
+  }
+  .mfp-arrow-right:before {
+    border-left: 27px solid #3F3F3F; 
+  }
+Этот код определяет стили для стрелок навигации, которые могут появляться в попап-окне, созданном с помощью плагина Magnific Popup.
+Класс ".mfp-arrow-left" определяет стили для левой стрелки навигации. Он устанавливает свойство "left: 0", чтобы разместить стрелку по левому краю окна. Затем он устанавливает стили для псевдоэлементов ":before" и ":after", которые создают вид стрелки.
+Класс ".mfp-arrow-right" определяет стили для правой стрелки навигации. Он устанавливает свойство "right: 0", чтобы разместить стрелку по правому краю окна. Затем он также устанавливает стили для псевдоэлементов ":before" и ":after", чтобы создать вид стрелки.
+Важно отметить, что классы ".mfp-arrow-left" и ".mfp-arrow-right" устанавливают стили только для положения и формы стрелок, а цвет стрелок определяется другими классами.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
